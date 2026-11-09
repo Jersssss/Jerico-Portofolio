@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portofolio akademik dan proyek Jerico Rosales Siahay di bidang Informatika dan Jaringan Komputer." />
+  <title>Jerico Rosales Siahay | Portfolio</title>
+  <style>
+    :root{--bg:#0b1120;--panel:#111c31;--panel2:#15233b;--text:#eaf1ff;--muted:#a9b8d0;--accent:#67e8c1;--line:#263752}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 Inter,Segoe UI,Arial,sans-serif}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1060px,90%);margin:auto}
+    header{position:sticky;top:0;background:#0b1120eF;border-bottom:1px solid var(--line);z-index:5;backdrop-filter:blur(12px)}
+    nav{min-height:68px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-weight:800;letter-spacing:.3px}.brand span{color:var(--accent)}
+    .navlinks{display:flex;gap:22px;color:var(--muted);font-size:14px}.navlinks a:hover,.textlink:hover{color:var(--accent)}
+    .hero{padding:92px 0 78px;display:grid;grid-template-columns:1.4fr .8fr;gap:48px;align-items:center}
+    .eyebrow{color:var(--accent);font-weight:700;letter-spacing:2px;text-transform:uppercase;font-size:12px}
+    h1{font-size:clamp(38px,6vw,64px);line-height:1.08;margin:14px 0 18px;letter-spacing:-1.8px}.hero p{color:var(--muted);max-width:620px;margin:0 0 26px}
+    .actions{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-block;padding:11px 18px;border-radius:9px;font-weight:700;font-size:14px;border:1px solid var(--line)}.primary{background:var(--accent);color:#062019;border-color:var(--accent)}.secondary:hover{border-color:var(--accent)}
+    .profile-card{background:linear-gradient(145deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:18px;padding:26px}.avatar{width:74px;height:74px;border-radius:18px;background:#203954;color:var(--accent);display:grid;place-items:center;font-size:27px;font-weight:800;margin-bottom:18px}.profile-card h2{font-size:20px;margin:0}.profile-card p{font-size:14px;margin:5px 0 16px}.taglist{display:flex;flex-wrap:wrap;gap:8px}.tag{font-size:12px;color:#c9d7ec;background:#1b2b45;border:1px solid #2b4262;border-radius:30px;padding:5px 10px}
+    section{padding:58px 0;border-top:1px solid var(--line)}.section-head{margin-bottom:26px}.section-head h2{font-size:29px;margin:0 0 5px}.section-head p{color:var(--muted);margin:0}
+    .about{max-width:790px;color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:22px}.card h3{margin:8px 0 8px;font-size:19px}.card p{color:var(--muted);font-size:14px;margin:0 0 14px}.meta{color:var(--accent);font-size:11px;text-transform:uppercase;letter-spacing:1px;font-weight:800}.card a{font-size:13px;color:var(--accent);font-weight:700}.skills{display:flex;flex-wrap:wrap;gap:10px}.skill{background:var(--panel);border:1px solid var(--line);padding:10px 14px;border-radius:9px;color:#d8e4f7;font-size:14px}
+    .timeline{border-left:2px solid var(--line);padding-left:22px;margin-left:8px}.timeline-item{position:relative;margin:0 0 22px}.timeline-item:before{content:"";position:absolute;width:10px;height:10px;border-radius:50%;background:var(--accent);left:-28px;top:8px}.timeline-item h3{margin:0;font-size:17px}.timeline-item p{margin:4px 0;color:var(--muted);font-size:14px}
+    .contact{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:25px;display:flex;align-items:center;justify-content:space-between;gap:20px}.contact p{color:var(--muted);margin:4px 0 0}footer{padding:25px 0;color:var(--muted);font-size:13px;text-align:center}
+    @media(max-width:720px){.hero{grid-template-columns:1fr;padding:65px 0 55px}.grid{grid-template-columns:1fr}.navlinks{gap:12px;font-size:12px}.brand{font-size:14px}.contact{align-items:flex-start;flex-direction:column}}
+    @media(max-width:430px){.navlinks a:nth-child(2){display:none}.navlinks{gap:10px}}
+  </style>
+</head>
+<body>
+<header><div class="wrap"><nav>
+  <a class="brand" href="#home">JERIC<span>O.</span></a>
+  <div class="navlinks"><a href="#about">Tentang</a><a href="#portfolio">Portofolio</a><a href="#skills">Keahlian</a><a href="#contact">Kontak</a></div>
+</nav></div></header>
+<main>
+  <div class="wrap hero" id="home">
+    <div>
+      <div class="eyebrow">Informatics Student · Network Engineering</div>
+      <h1>Halo, saya<br>Jerico Rosales Siahay.</h1>
+      <p>Mahasiswa Informatika yang tertarik pada jaringan komputer, infrastruktur jaringan, dan pengembangan teknologi. Website ini menjadi dokumentasi perjalanan belajar, praktikum, sertifikat, serta proyek yang saya kerjakan.</p>
+      <div class="actions"><a class="btn primary" href="#portfolio">Lihat Portofolio</a><a class="btn secondary" href="#contact">Hubungi Saya</a></div>
+    </div>
+    <aside class="profile-card">
+      <div class="avatar">JR</div><h2>Jerico Rosales Siahay</h2>
+      <p>Mahasiswa S1 Informatika</p>
+      <div class="taglist"><span class="tag">Computer Networking</span><span class="tag">Network Security</span><span class="tag">Computer Vision</span></div>
+    </aside>
+  </div>
+  <section id="about"><div class="wrap">
+    <div class="section-head"><h2>Tentang Saya</h2><p>Profil singkat dan fokus pembelajaran.</p></div>
+    <p class="about">Saya merupakan mahasiswa Program Studi S1 Informatika, Fakultas Ilmu Komputer, Universitas AMIKOM Yogyakarta. Saya memiliki ketertarikan pada bidang jaringan komputer dan terus mengembangkan kemampuan melalui perkuliahan, praktikum, pembelajaran mandiri, serta pengerjaan proyek. Saya terbuka untuk mempelajari teknologi baru dan bekerja sama dalam sebuah tim.</p>
+  </div></section>
+  <section id="portfolio"><div class="wrap">
+    <div class="section-head"><h2>Dokumentasi Portofolio</h2><p>Kumpulan proyek, praktikum, dan hasil pembelajaran.</p></div>
+    <div class="grid">
+      <article class="card"><div class="meta">Penelitian · Sedang dikerjakan</div><h3>Simulasi Sistem Keamanan Rumah Berbasis Computer Vision</h3><p>Dokumentasi penelitian mengenai deteksi orang menggunakan YOLO, pengenalan wajah, pemantauan area (ROI), dan notifikasi Telegram. Simulasi direncanakan menggunakan laptop dan webcam.</p><a href="https://github.com/" target="_blank" rel="noopener">Tambahkan repository / dokumentasi ↗</a></article>
+      <article class="card"><div class="meta">Praktikum · Isi sesuai hasilmu</div><h3>Praktikum Jaringan Komputer</h3><p>Tempat untuk mendokumentasikan topologi jaringan, konfigurasi IP, subnetting, routing, VLAN, simulasi Cisco Packet Tracer, serta hasil pengujian konektivitas.</p><a href="https://github.com/" target="_blank" rel="noopener">Tambahkan dokumentasi praktikum ↗</a></article>
+      <article class="card"><div class="meta">Sertifikat · Isi sesuai sertifikat</div><h3>Pembelajaran Cisco Networking Academy</h3><p>Tambahkan nama pelatihan, materi yang dipelajari, tanggal penyelesaian, dan tautan atau gambar sertifikat NetAcad yang benar-benar telah diperoleh.</p><a href="https://www.netacad.com/" target="_blank" rel="noopener">Cisco Networking Academy ↗</a></article>
+      <article class="card"><div class="meta">Proyek · Tambahkan hasil</div><h3>Eksperimen dan Proyek Teknologi</h3><p>Gunakan bagian ini untuk tugas akhir mata kuliah, eksperimen konfigurasi jaringan, proyek pemrograman, atau karya lain. Sertakan tujuan, tools, proses, dan hasil pengujian.</p><a href="https://github.com/" target="_blank" rel="noopener">Lihat GitHub ↗</a></article>
+    </div>
+  </div></section>
+  <section id="skills"><div class="wrap">
+    <div class="section-head"><h2>Bidang yang Dipelajari</h2><p>Daftar ini dapat diperbarui sesuai kemampuan dan pengalaman nyata.</p></div>
+    <div class="skills"><span class="skill">Computer Networking</span><span class="skill">IP Addressing & Subnetting</span><span class="skill">Cisco Packet Tracer</span><span class="skill">Network Troubleshooting</span><span class="skill">Linux Fundamentals</span><span class="skill">Git & GitHub</span><span class="skill">Python Fundamentals</span><span class="skill">Computer Vision (YOLO)</span></div>
+  </div></section>
+  <section><div class="wrap">
+    <div class="section-head"><h2>Pendidikan</h2><p>Riwayat pendidikan.</p></div>
+    <div class="timeline"><div class="timeline-item"><h3>S1 Informatika — Universitas AMIKOM Yogyakarta</h3><p>Mahasiswa · Angkatan 2023</p></div></div>
+  </div></section>
+  <section id="contact"><div class="wrap">
+    <div class="contact"><div><h2 style="margin:0">Mari terhubung</h2><p>Tambahkan alamat email profesional atau tautan profil GitHub dan LinkedIn milikmu.</p></div><div class="actions"><a class="btn primary" href="https://github.com/" target="_blank" rel="noopener">GitHub</a><a class="btn secondary" href="mailto:emailkamu@example.com">Email</a></div></div>
+  </div></section>
+</main>
+<footer><div class="wrap">© 2026 Jerico Rosales Siahay · Personal Portfolio</div></footer>
+</body>
+</html>
