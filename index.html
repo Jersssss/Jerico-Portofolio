@@ -152,16 +152,13 @@ h1 {
 }
 
 .avatar {
-  width: 78px;
-  height: 78px;
-  background: #203954;
-  color: var(--accent);
-  border-radius: 18px;
-  display: grid;
-  place-items: center;
-  font-size: 28px;
-  font-weight: bold;
-  margin-bottom: 18px;
+  width: 180px;
+  height: 220px;
+  object-fit: contain;
+  object-position: center bottom;
+  display: block;
+  margin: 0 auto 18px;
+  filter: drop-shadow(0 8px 15px rgba(0, 0, 0, 0.22));
 }
 
 .profile-card h2 {
@@ -428,7 +425,7 @@ footer {
   </div>
 
   <aside class="profile-card">
-    <div class="avatar">JR</div>
+    <img class="avatar" src="foto-profil.png" alt="Foto profil Jerico Rosales Siahay">
 
     <h2>Jerico Rosales Siahay</h2>
 
@@ -586,7 +583,7 @@ footer {
 </div>
 </section>
 
-<!-- CONTACT: HANYA SATU BAGIAN -->
+<!-- CONTACT -->
 <section id="contact">
 <div class="wrap">
 
