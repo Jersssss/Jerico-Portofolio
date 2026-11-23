@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -158,7 +159,7 @@ h1 {
   object-position: center bottom;
   display: block;
   margin: 0 auto 18px;
-  filter: drop-shadow(0 8px 15px rgba(0, 0, 0, 0.22));
+  filter: drop-shadow(0 8px 15px rgba(0,0,0,.22));
 }
 
 .profile-card h2 {
@@ -255,6 +256,10 @@ section {
   color: var(--accent);
   font-size: 13px;
   font-weight: bold;
+}
+
+.card a:hover {
+  text-decoration: underline;
 }
 
 /* SKILLS */
@@ -425,7 +430,11 @@ footer {
   </div>
 
   <aside class="profile-card">
-    <img class="avatar" src="foto-profil.png" alt="Foto profil Jerico Rosales Siahay">
+    <img
+      class="avatar"
+      src="./foto-profil.png"
+      alt="Foto profil Jerico Rosales Siahay"
+    >
 
     <h2>Jerico Rosales Siahay</h2>
 
@@ -468,11 +477,12 @@ footer {
 
   <div class="section-head">
     <h2>Dokumentasi Portofolio</h2>
-    <p>Kumpulan proyek, praktikum, dan hasil pembelajaran.</p>
+    <p>Kumpulan proyek, tugas, praktikum, dan hasil pembelajaran.</p>
   </div>
 
   <div class="grid">
 
+    <!-- SMART CCTV -->
     <article class="card">
       <div class="meta">Penelitian · Sedang dikerjakan</div>
 
@@ -491,21 +501,27 @@ footer {
       </a>
     </article>
 
+    <!-- PERANCANGAN JARINGAN -->
     <article class="card">
-      <div class="meta">Praktikum Jaringan Komputer</div>
+      <div class="meta">Perancangan Jaringan</div>
 
-      <h3>Praktikum Jaringan Komputer</h3>
+      <h3>Perancangan Jaringan</h3>
 
       <p>
-        Dokumentasi topologi jaringan, konfigurasi IP, subnetting,
-        routing, VLAN, Cisco Packet Tracer, dan pengujian konektivitas.
+        Dokumentasi perancangan topologi jaringan, kebutuhan perangkat,
+        konfigurasi alamat IP, subnetting, routing, dan simulasi jaringan
+        menggunakan Cisco Packet Tracer.
       </p>
 
-      <a href="https://github.com/" target="_blank" rel="noopener">
-        Dokumentasi Praktikum ↗
+      <a
+        href="https://drive.google.com/drive/folders/1unyR5RqDusk3xXZ6DehPxEMOV7_Z8W2C"
+        target="_blank"
+        rel="noopener">
+        Lihat Dokumentasi ↗
       </a>
     </article>
 
+    <!-- CISCO NETWORKING ACADEMY -->
     <article class="card">
       <div class="meta">Sertifikat</div>
 
@@ -521,18 +537,23 @@ footer {
       </a>
     </article>
 
+    <!-- PRAKTIKUM JARINGAN KOMPUTER -->
     <article class="card">
-      <div class="meta">Proyek dan Eksperimen</div>
+      <div class="meta">Praktikum Jaringan Komputer</div>
 
-      <h3>Eksperimen Teknologi</h3>
+      <h3>Praktikum Jaringan Komputer</h3>
 
       <p>
-        Dokumentasi tugas mata kuliah, eksperimen konfigurasi
-        jaringan, proyek pemrograman, dan hasil percobaan teknologi.
+        Dokumentasi kegiatan praktikum jaringan komputer yang meliputi
+        konfigurasi jaringan, pengujian konektivitas, troubleshooting,
+        serta penerapan konsep jaringan komputer.
       </p>
 
-      <a href="https://github.com/" target="_blank" rel="noopener">
-        Lihat GitHub ↗
+      <a
+        href="https://drive.google.com/drive/folders/1unyR5RqDusk3xXZ6DehPxEMOV7_Z8W2C"
+        target="_blank"
+        rel="noopener">
+        Lihat Dokumentasi ↗
       </a>
     </article>
 
@@ -613,24 +634,27 @@ footer {
 
       <p>
         <strong>WhatsApp:</strong><br>
-        <a href="https://wa.me/6282398050573"
-           target="_blank"
-           rel="noopener">
+        <a
+          href="https://wa.me/6282398050573"
+          target="_blank"
+          rel="noopener">
           Chat melalui WhatsApp
         </a>
       </p>
     </div>
 
     <div class="contact-buttons">
-      <a class="btn primary"
-         href="mailto:jericosiahayy@gmail.com">
+      <a
+        class="btn primary"
+        href="mailto:jericosiahayy@gmail.com">
         Kirim Email
       </a>
 
-      <a class="btn secondary"
-         href="https://wa.me/6282398050573"
-         target="_blank"
-         rel="noopener">
+      <a
+        class="btn secondary"
+        href="https://wa.me/6282398050573"
+        target="_blank"
+        rel="noopener">
         Hubungi WhatsApp
       </a>
     </div>
